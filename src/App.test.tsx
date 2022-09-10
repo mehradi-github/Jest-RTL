@@ -3,6 +3,8 @@ import { render, screen,fireEvent } from '@testing-library/react';
 import App from './App';
 import { execPath } from 'process';
 
+import {replaceCamleWithSpaces} from './App';
+
 test('renders learn react link', () => {
   render(<App />);
   const linkElement = screen.getByText(/learn react/i);
@@ -37,5 +39,21 @@ test('initial conditions',()=>{
 
   fireEvent.click(ch);
   expect(btn).toBeEnabled();
+});
+
+describe('Space before camel-case capital letter',()=>{
+
+test('Works for no inner capital letter',()=>{
+  expect(replaceCamleWithSpaces('Red')).toBe('Red');
+});
+test('works for on inner capital letter',()=>{
+  expect(replaceCamleWithSpaces('RedExtra')).toBe('Red Extra');
+
+});
+test('works for multiple inner capital letter',()=>{
+  expect(replaceCamleWithSpaces('RedMinExtra')).toBe('Red Min Extra');
+
+});
+
 });
 

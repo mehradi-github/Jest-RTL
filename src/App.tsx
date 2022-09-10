@@ -37,5 +37,7 @@ const [dis,setDis]=useState(false);
     </div>
   );
 }
-
+export const replaceCamleWithSpaces=(str:string)=>{
+  return str.replace(/\B([A-Z])\B/g,' $1');
+}
 export default App;
