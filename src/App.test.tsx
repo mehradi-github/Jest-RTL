@@ -7,3 +7,11 @@ test('renders learn react link', () => {
   const linkElement = screen.getByText(/learn react/i);
   expect(linkElement).toBeInTheDocument();
 });
+
+
+test('renders learn react link By Role', () => {
+  render(<App />);
+  const linkElement = screen.getByRole('link',{name:/learn react/i});
+  expect(linkElement).toBeInTheDocument();
+});
+
