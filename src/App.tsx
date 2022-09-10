@@ -5,7 +5,7 @@ import './App.css';
 function App() {
 const [color, setColor] = useState('red');
 const newColor= color==='red'? 'blue':'red';
-
+const [dis,setDis]=useState(false);
   return (
     <div className="App">
       <header className="App-header">
@@ -22,7 +22,18 @@ const newColor= color==='red'? 'blue':'red';
           Learn React
         </a>
       </header>
-      <button style={{backgroundColor: color}} onClick={()=>setColor(newColor)}>Change to {newColor}</button>
+      <button style={{backgroundColor: color}}
+       onClick={()=>setColor(newColor)}
+       disabled={dis}
+       >Change to {newColor}</button>
+
+      <input type={'checkbox'}
+      id="ch-dis"
+      defaultChecked={dis}
+      aria-checked={dis}
+      onChange={(e)=>{setDis(e.target.checked)}}
+      />
+      <label htmlFor='ch-dis'>Disable button</label>
     </div>
   );
 }
