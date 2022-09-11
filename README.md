@@ -101,3 +101,11 @@ User settings.json Location in VS-Code
 }
 
 ```
+
+.gitignore
+
+```
+.vscode
+.eslintcache
+
+```
