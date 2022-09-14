@@ -1,9 +1,9 @@
 # Configuring a project by React, Jest and React Testing Library (RTL)
 
-- W3C Role Definitions [https://www.w3.org/TR/wai-aria/#role_definitions](https://www.w3.org/TR/wai-aria/#role_definitions)
-- Testing Library Which Query Should I Use [https://testing-library.com/docs/queries/about/#priority](https://testing-library.com/docs/queries/about/#priority)
-- jest dom GitHub page [https://github.com/testing-library/jest-dom](https://github.com/testing-library/jest-dom)
-- Create React App Official Site [https://create-react-app.dev/](https://create-react-app.dev/)
+- W3C role definitions [https://www.w3.org/TR/wai-aria/#role_definitions](https://www.w3.org/TR/wai-aria/#role_definitions)
+- Testing Library Which query should I use [https://testing-library.com/docs/queries/about/#priority](https://testing-library.com/docs/queries/about/#priority)
+- Jest dom GitHub page [https://github.com/testing-library/jest-dom](https://github.com/testing-library/jest-dom)
+- Create React app official site [https://create-react-app.dev/](https://create-react-app.dev/)
 
 ## Install ESLint, Prettier, ESLint Plugin for Testing Library, ESLint Plugin for Jest DOM:
 
