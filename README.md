@@ -1,6 +1,4 @@
-# Reconfiguring project requirements by React, Jest and React Testing Library (RTL)
-
-## Part 1 - Writing TDD By Simple create-react-app
+# Configuring a project by React, Jest and React Testing Library (RTL)
 
 Create React App Official Site [https://create-react-app.dev/](https://create-react-app.dev/)
 
@@ -10,7 +8,7 @@ W3C Role Definitions [https://www.w3.org/TR/wai-aria/#role_definitions](https://
 
 jest dom GitHub page [https://github.com/testing-library/jest-dom](https://github.com/testing-library/jest-dom)
 
-## Part 2 - install ESLint, Prettier, ESLint Plugin for Testing Library, ESLint Plugin for Jest DOM:
+## Install ESLint, Prettier, ESLint Plugin for Testing Library, ESLint Plugin for Jest DOM:
 
 install eslint, prettier
 
