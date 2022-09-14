@@ -1,4 +1,4 @@
-# Testing React with Jest and React Testing Library (RTL)
+# Reconfiguring project requirements by React, Jest and React Testing Library (RTL)
 
 ## Part 1 - Writing TDD By Simple create-react-app
 
