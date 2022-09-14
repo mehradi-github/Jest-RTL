@@ -1,4 +1,4 @@
-# Configuring a project by React, Jest and React Testing Library (RTL)
+# Configuring a project with React, Jest and React Testing Library (RTL)
 
 - W3C role definitions [https://www.w3.org/TR/wai-aria/#role_definitions](https://www.w3.org/TR/wai-aria/#role_definitions)
 - Testing Library Which query should I use [https://testing-library.com/docs/queries/about/#priority](https://testing-library.com/docs/queries/about/#priority)
