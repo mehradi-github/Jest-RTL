@@ -6,7 +6,7 @@
 - Create React app official site [https://create-react-app.dev/](https://create-react-app.dev/)
 
 ```sh
-npx create-react-app Jest-RTL --template typescript
+npx create-react-app jest-rtl --template typescript
 ```
 
 ## Install ESLint, Prettier, ESLint Plugin for Testing Library, ESLint Plugin for Jest DOM:
