@@ -5,6 +5,10 @@
 - Jest dom GitHub page [https://github.com/testing-library/jest-dom](https://github.com/testing-library/jest-dom)
 - Create React app official site [https://create-react-app.dev/](https://create-react-app.dev/)
 
+```sh
+npx create-react-app Jest-RTL --template typescript
+```
+
 ## Install ESLint, Prettier, ESLint Plugin for Testing Library, ESLint Plugin for Jest DOM:
 
 install eslint, prettier
